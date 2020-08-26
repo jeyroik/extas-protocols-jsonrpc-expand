@@ -1,0 +1,13 @@
+{
+  "name": "extas/protocols-jsonrpc-expand",
+  "installer_version": 3,
+  "protocols": [
+    {
+      "name": "jsonrpc_expand",
+      "title": "Extas JSON RPC expand",
+      "description": "Parse JSON RPC request for an expand attribute",
+      "accept": ["*"],
+      "class": "extas\\components\\protocols\\ProtocolJsonRpcExpand"
+    }
+  ]
+}
